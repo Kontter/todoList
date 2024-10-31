@@ -1,0 +1,33 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: var(--font-size-m);
+  color: var(--text-color-white);
+  cursor: pointer;
+  transition: var(--transition-duration);
+}
+
+.btn path {
+  fill: var(--background-color-white)
+}
+
+.btn.redBackGround {
+  background-color: var(--background-color-red);
+}
+
+.btn.redBackGround:hover, .btn.redBackGround:focus-visible {
+  background-color: var(--background-color-red-hover);
+}
+
+.btn.blueBackground {
+  background-color: var(--background-color-blue);
+}
+
+.btn.blueBackground:hover, .btn.blueBackground:focus-visible {
+  background-color: var(--background-color-blue-hover);
+}

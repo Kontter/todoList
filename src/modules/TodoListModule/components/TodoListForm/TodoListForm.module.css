@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px  15px;
+  background: var(--background-color-gradient);
+  border-radius: var(--border-radius-main);
+  border: var(--border-main);
+}

@@ -1,0 +1,31 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todoList__alert {
+  margin: 0;
+  text-align: center;
+  font-size: var(--font-size-l);
+  color: var(--text-color-white);
+  font-family: sans-serif;
+}
+
+.todoList__removeAllBtn {
+  background-color: transparent;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.todoList__removeAllBtn svg {
+  transition: var(--transition-duration);
+}
+
+.todoList__removeAllBtn:hover svg, .todoList__removeAllBtn:focus-visible svg {
+  fill: var(--background-color-red-hover);
+}

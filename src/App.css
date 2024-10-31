@@ -1,0 +1,27 @@
+:root {
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+
+  --text-color-white: #fff;
+
+  --background-color-red: #a75452;
+  --background-color-red-hover: #c40703;
+  --background-color-blue: #5a7bb6;
+  --background-color-blue-hover: #2459b4;
+  --background-color-white: #fff;
+  --background-color-gradient: linear-gradient(to right, #918c95, #79727a);
+
+  --border-radius-main: 20px;
+  --border-main: 1px solid #b7b2b9;
+
+  --transition-duration: .3s
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to right, #575b67, #292a3a);
+}

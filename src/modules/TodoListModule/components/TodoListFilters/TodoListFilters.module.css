@@ -1,0 +1,25 @@
+.filter_list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.filter_list__btn {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: var(--font-size-m);
+  color: #d4cfd6;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: var(--transition-duration);
+}
+
+.filter_list__btn:hover, .filter_list__btn:focus-visible {
+  color: var(--text-color-white);
+  border-bottom: 2px solid var(--background-color-blue);
+}
