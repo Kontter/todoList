@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './TodoListFilters.module.css'
 import { useAppDispatch, useAppSelector } from '../../../../hooks/redux'
 import { setfilter } from '../../store/todoListSlice'

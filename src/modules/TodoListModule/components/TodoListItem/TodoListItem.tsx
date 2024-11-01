@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import styles from './TodoListItem.module.css'
 import { ITodo } from '../../models/todoList'
 import { useAppDispatch } from '../../../../hooks/redux'

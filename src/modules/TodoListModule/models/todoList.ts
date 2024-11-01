@@ -6,7 +6,7 @@ export interface IData {
   uncompletedTasks: number;
   allTasks: number;
   cartTasks: number;
-  isAuth: boolean
+  isAuth?: boolean
 }
 
 export interface ITodo {

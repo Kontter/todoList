@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import TodoListItem from '../TodoListItem/TodoListItem'
 import styles from './TodoList.module.css'
 import { useAppDispatch, useAppSelector } from '../../../../hooks/redux'
