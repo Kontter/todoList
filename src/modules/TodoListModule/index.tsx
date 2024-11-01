@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './index.module.css'
 import TodoListForm from './components/TodoListForm/TodoListForm'
 import TodoListFilters from './components/TodoListFilters/TodoListFilters'

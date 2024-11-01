@@ -48,15 +48,19 @@ const TodoList = () => {
   useEffect(() => {
     if(localStorage.getItem('data')) {
 
-      const data: IData = JSON.parse(localStorage.getItem('data'))
-      
-      dispatch(setTodoList(data.todoList))
-      dispatch(setCartTodoList(data.cartTodoList))
-      dispatch(setfilter(data.filter))
-      dispatch(setCompletedTasks(data.completedTasks))
-      dispatch(setUncompletedTasks(data.uncompletedTasks))
-      dispatch(setAllTasks(data.allTasks))
-      dispatch(setCartTasks(data.cartTasks))
+      const JSONData = localStorage.getItem('data')
+
+      if(typeof JSONData === 'string') {    
+        const data: IData = JSON.parse(JSONData)
+
+        dispatch(setTodoList(data.todoList))
+        dispatch(setCartTodoList(data.cartTodoList))
+        dispatch(setfilter(data.filter))
+        dispatch(setCompletedTasks(data.completedTasks))
+        dispatch(setUncompletedTasks(data.uncompletedTasks))
+        dispatch(setAllTasks(data.allTasks))
+        dispatch(setCartTasks(data.cartTasks))
+      }
     }
   }, [])
 
